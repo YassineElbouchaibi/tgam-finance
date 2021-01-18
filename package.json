@@ -1,13 +1,12 @@
 {
-	"name": "unicorn-fun",
+	"name": "tgam-finance",
 	"version": "0.0.0",
-	"description": "My awesome module",
+	"description": "Coming soon",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "YassineElBouchaibi/tgam-finance",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Yassine El Bouchaibi",
+		"email": "yassine.el-bouchaibi@outlook.com"
 	},
 	"type": "module",
 	"exports": "./index.js",
