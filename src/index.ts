@@ -1,3 +1,7 @@
-export function test(a: number, b: number): number {
-  return a + b;
-}
+export * from './tgamFinance';
+export {
+  ErrorEvent as ErrorEvent,
+  ExchangeMetaDataResponse as ExchangeMetaDataResponse,
+  SymbolDataResponse as SymbolDataResponse,
+  SymbolMetaDataResponse as SymbolMetaDataResponse,
+} from './constantsAndTypes';
