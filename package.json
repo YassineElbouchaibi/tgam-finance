@@ -1,7 +1,7 @@
 {
   "name": "tgam-finance",
   "version": "0.0.1",
-  "description": "Description here...",
+  "description": "Financial Data",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rm -rf ./lib ./node_modules/.cache",
