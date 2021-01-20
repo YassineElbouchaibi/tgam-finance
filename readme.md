@@ -1,6 +1,6 @@
 # tgam-finance
 
-> Description here...
+Coming soon...
 
 ## Install
 
@@ -17,3 +17,6 @@ Coming soon...
 ## API
 
 Coming soon...
+
+## Note
+Please contact me if you have any issues with this project and want it to be taken down.
