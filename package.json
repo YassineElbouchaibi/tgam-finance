@@ -1,6 +1,6 @@
 {
   "name": "tgam-finance",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Financial Data",
   "main": "lib/index.js",
   "scripts": {
@@ -60,8 +60,15 @@
       "publishPath": "lib"
     },
     "hooks": {
-      "before:init": ["npm run lint", "npm run format", "npm run clean"],
-      "after:bump": ["npm run build", "sed 's#\"main\": \"lib/index.js\"#\"main\": \"index.js\"#' package.json > ./lib/package.json"]
+      "before:init": [
+        "npm run lint",
+        "npm run format",
+        "npm run clean"
+      ],
+      "after:bump": [
+        "npm run build",
+        "sed 's#\"main\": \"lib/index.js\"#\"main\": \"index.js\"#' package.json > ./lib/package.json"
+      ]
     }
   }
 }
