@@ -8,8 +8,6 @@
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
-    "version": "npm run clean && npm run build",
-    "postversion": "git push && git push --tags",
     "release": "npx release-it --minor"
   },
   "repository": {
@@ -53,5 +51,17 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --cache --fix"
     ]
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publishPath": "lib"
+    },
+    "hooks": {
+      "before:init": ["npm run lint", "npm run format", "npm run clean"],
+      "after:bump": ["npm run build"]
+    }
   }
 }
