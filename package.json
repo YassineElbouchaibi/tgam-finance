@@ -67,7 +67,8 @@
       ],
       "after:bump": [
         "npm run build",
-        "sed 's#\"main\": \"lib/index.js\"#\"main\": \"index.js\"#' package.json > ./lib/package.json"
+        "sed 's#\"main\": \"lib/index.js\"#\"main\": \"index.js\"#' package.json > ./lib/package.json",
+        "cp readme.md lib"
       ]
     }
   }
