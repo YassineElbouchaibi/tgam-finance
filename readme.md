@@ -1,6 +1,10 @@
 # tgam-finance
 
-Coming soon...
+A tiny Unofficial TGAM Finance API Wrapper for JavaScript, supporting the core abilities of the TGAM Finance website including getting realtime quotes, listing indices, financial data, and more.
+
+## Disclaimer
+
+* **USE AT YOUR OWN RISK**. This is an unofficial TGAM Finance API Wrapper. This is still an alpha and might change at any time.
 
 ## Install
 
